@@ -58,7 +58,7 @@ namespace halogen
 
 
             app.UseRouting();
-            app.UseCors(MyAllowSpecificOrigins);
+            app.UseCors();
 
             //app.UseMiddleware(typeof(CorsMiddleware));
 
