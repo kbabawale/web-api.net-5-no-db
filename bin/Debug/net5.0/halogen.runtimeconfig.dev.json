@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/kay/.dotnet/store/|arch|/|tfm|",
+      "/Users/kay/.nuget/packages"
+    ]
+  }
+}
