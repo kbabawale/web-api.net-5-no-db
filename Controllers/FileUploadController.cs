@@ -25,7 +25,14 @@ namespace halogen.Controllers
             hostingEnvironment = hostingEnv;
         }
 
-        [HttpPost]
+        [HttpGet]
+        [Route("upload")]
+        public ActionResult Get()
+        {
+            return Ok("Web API working");
+        }
+
+            [HttpPost]
         [Route("upload")]
         public async Task<IActionResult> OnPostUploadAsync(IFormFile file)
         {
